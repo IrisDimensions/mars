@@ -1,0 +1,24 @@
+{
+    "name": "Red Sands",
+    "rarity": 5,
+    "derivative": "CRIMSON_FOREST",
+    "layers": [
+        {
+            "palette": [
+                "RED_CONCRETE_POWDER"
+            ],
+            "maxHeight": 2,
+            "minHeight": 5,
+            "style": {
+                "style": "FLAT"
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "red-sands",
+            "min": 72,
+            "max": 220
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "rarity": 3,
+    "name": "High Sand Cliffs",
+    "derivative": "CRIMSON_FOREST",
+    "layers": [
+        {
+            "palette": [
+                "RED_SAND",
+                "ORANGE_CONCRETE_POWDER"
+            ],
+            "maxHeight": 2,
+            "minHeight": 1,
+            "style": {
+                "style": "STATIC",
+                "zoom": 0.0135
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "sands-cliffs",
+            "min": 112,
+            "max": 220
+        }
+    ]
+}

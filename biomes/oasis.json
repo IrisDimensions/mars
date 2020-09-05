@@ -1,0 +1,31 @@
+{
+    "rarity": 1,
+    "name": "Oasis",
+    "derivative": "NETHER_WASTES",
+    "layers": [
+        {
+            "palette": [
+                "GRASS_BLOCK",
+                "DIRT",
+                "COARSE_DIRT"
+            ],
+            "maxHeight": 1,
+            "minHeight": 1,
+            "style": {
+                "style": "IRIS_DOUBLE",
+                "fracture": {
+                    "style": "STATIC",
+                    "multiplier": 3
+                },
+                "zoom": 0.009
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "oasis",
+            "min": 9,
+            "max": 19
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Martian Mountains",
+    "rarity": 8,
+    "landBiomes": [
+        "sands-high",
+        "red-sands",
+        "sands-cliffs"
+    ],
+    "seaBiomes": [
+        "sands"
+    ],
+    "shoreBiomes": [
+        "sands"
+    ],
+    "spotBiomes": [
+        {
+            "biome": "tropical-rainforest",
+            "rarity": 270,
+            "scale": 2,
+            "type": "LAND"
+        }
+    ]
+}

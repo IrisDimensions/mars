@@ -1,0 +1,25 @@
+{
+    "name": "High Sands",
+    "derivative": "CRIMSON_FOREST",
+    "layers": [
+        {
+            "palette": [
+                "RED_SAND",
+                "ORANGE_CONCRETE_POWDER"
+            ],
+            "maxHeight": 2,
+            "minHeight": 1,
+            "style": {
+                "style": "STATIC",
+                "zoom": 0.0135
+            }
+        }
+    ],
+    "generators": [
+        {
+            "generator": "sands",
+            "min": 80,
+            "max": 220
+        }
+    ]
+}
