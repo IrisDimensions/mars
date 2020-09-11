@@ -5,7 +5,9 @@
     "layers": [
         {
             "palette": [
-                "RED_CONCRETE_POWDER"
+                {
+                    "block": "red_concrete_powder"
+                }
             ],
             "maxHeight": 2,
             "minHeight": 5,

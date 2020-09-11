@@ -5,9 +5,15 @@
     "layers": [
         {
             "palette": [
-                "GRASS_BLOCK",
-                "DIRT",
-                "COARSE_DIRT"
+                {
+                    "block": "grass_block"
+                },
+                {
+                    "block": "dirt"
+                },
+                {
+                    "block": "coarse_dirt"
+                }
             ],
             "maxHeight": 1,
             "minHeight": 1,

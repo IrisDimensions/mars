@@ -4,8 +4,12 @@
     "layers": [
         {
             "palette": [
-                "RED_SAND",
-                "ORANGE_CONCRETE_POWDER"
+                {
+                    "block": "red_sand"
+                },
+                {
+                    "block": "orange_concrete_powder"
+                }
             ],
             "maxHeight": 2,
             "minHeight": 1,

@@ -3,9 +3,13 @@
     "decorate": true,
     "environment": "THE_END",
     "regions": ["desert", "mountains"],
-    "rockPalette": [
-        "SMOOTH_RED_SANDSTONE"
-    ],
+    "rockPalette": {
+        "palette": [
+            {
+                "block": "smooth_red_sandstone"
+            }
+        ]
+    },
     "caves": true,
     "carving": true,
     "overlayNoise": [
