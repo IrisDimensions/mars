@@ -3,12 +3,12 @@
         "horizontalScale": 5,
         "function": "BILINEAR_STARCAST_9"
     },
-    "seed": 5551,
+    "seed": 12223,
     "composite": [{
         "style": {
             "style": "FRACTAL_WATER",
-            "zoom": 4
+            "zoom": 18
         },
-        "seed": 235
+        "seed": 23452
     }]
 }

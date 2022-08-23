@@ -1,5 +1,5 @@
 {
-    "name": "High Sands",
+    "name": "Red Sands",
     "derivative": "END_HIGHLANDS",
     "vanillaDerivative": "END_HIGHLANDS",
     "customDerivitives": [{
@@ -15,20 +15,14 @@
     }],
     "rarity": 5,
     "layers": [{
-        "palette": [
-            {"block": "minecraft:red_sand"},
-            {"block": "minecraft:orange_concrete_powder"}
-        ],
+        "palette": [{"block": "minecraft:red_concrete_powder"}],
         "maxHeight": 2,
-        "minHeight": 1,
-        "style": {
-            "style": "STATIC",
-            "zoom": 0.0135
-        }
+        "minHeight": 5,
+        "style": {"style": "FLAT"}
     }],
     "generators": [{
         "generator": "sands-red",
-        "min": 80,
+        "min": 72,
         "max": 220
     }]
 }

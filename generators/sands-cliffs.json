@@ -1,18 +1,16 @@
 {
     "interpolator": {
-        "function": "BILINEAR_STARCAST_9",
-        "horizontalScale": 5
+        "horizontalScale": 5,
+        "function": "BILINEAR_STARCAST_9"
     },
     "seed": 1331,
-    "cliffHeightMax": 80,
-    "cliffHeightMin": 40,
-    "composite": [
-        {
-            "style": {
-                "style": "FRACTAL_WATER",
-                "zoom": 22
-            },
-            "seed": 2345
-        }
-    ]
+    "cliffHeightMax": 60,
+    "cliffHeightMin": 20,
+    "composite": [{
+        "style": {
+            "style": "FRACTAL_WATER",
+            "zoom": 22
+        },
+        "seed": 2345
+    }]
 }
