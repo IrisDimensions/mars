@@ -1,6 +1,7 @@
 {
     "name": "Mars",
     "fluidHeight": 0,
+    "aggressiveBiomeReshuffle": true,
     "regions": [
         "desert",
         "mountains"
