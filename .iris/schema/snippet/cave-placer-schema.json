@@ -894,7 +894,7 @@
             },
             {"type": "string"}
         ]},
-        "erzcaves": {"enum": []},
+        "erzcaves": {"enum": ["cave"]},
         "enum-snippet-carving": {"enum": []},
         "erzexpressions": {"enum": []},
         "enum-snippet-style": {"enum": []},

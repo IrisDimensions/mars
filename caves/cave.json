@@ -1,0 +1,17 @@
+{
+    "worm": {
+        "allowLoops": true,
+        "girth": {
+            "max": 8,
+            "min": 1,
+            "style": {"style": "SIMPLEX"}
+        },
+        "maxDistance": 200,
+        "maxIterations": 50
+    },
+    "customBiome": "crater",
+    "verticalRange": {
+        "max": 300,
+        "min": 0
+    }
+}
