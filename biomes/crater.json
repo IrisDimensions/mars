@@ -11,7 +11,8 @@
         "fogColor": "#922B21",
         "waterFogColor": "#922B21",
         "foliageColor": "#922B21",
-        "grassColor": "#922B21"
+        "grassColor": "#922B21",
+        "skyColor": "#922B21"
     }],
     "rarity": 1,
     "layers": [{
@@ -34,5 +35,28 @@
         "generator": "crater",
         "min": 15,
         "max": 25
-    }]
+    }],
+    "caveCeilingLayers": [{"palette": [{"block": "minecraft:orange_terracotta"}]}],
+    "carving": {"caves": [
+        {
+            "breakSurface": true,
+            "cave": "cave",
+            "rarity": 2,
+            "caveStartHeight": {
+                "max": 300,
+                "min": 10,
+                "style": {"style": "STATIC"}
+            }
+        },
+        {
+            "breakSurface": false,
+            "cave": "cave",
+            "rarity": 1,
+            "caveStartHeight": {
+                "max": 300,
+                "min": 10,
+                "style": {"style": "STATIC"}
+            }
+        }
+    ]}
 }

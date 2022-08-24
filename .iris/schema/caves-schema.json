@@ -295,7 +295,7 @@
             {"type": "string"}
         ]},
         "erzravines": {"enum": []},
-        "erzcaves": {"enum": []},
+        "erzcaves": {"enum": ["cave"]},
         "enum-snippet-range": {"enum": []},
         "enum-snippet-style": {"enum": []},
         "obj-com-volmit-iris-engine-object-iriselipsoid": {"anyOf": [

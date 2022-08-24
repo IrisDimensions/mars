@@ -1,6 +1,6 @@
 {
     "name": "Mars",
-    "fluidHeight": 0,
+    "fluidHeight": 120,
     "aggressiveBiomeReshuffle": true,
     "regions": [
         "desert",
@@ -9,5 +9,43 @@
     "bedrock": true,
     "rockPalette": {"palette": [{"block": "minecraft:smooth_red_sandstone"}]},
     "useMantle": true,
-    "decorate": true
+    "decorate": true,
+    "continentalStyle": {
+        "style": "NOWHERE_CELLULAR",
+        "zoom": 3,
+        "exponent": 1
+    },
+    "landChance": 0.5,
+    "deposits": [
+        {
+            "minHeight": 10,
+            "maxHeight": 200,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "maxSize": 4,
+            "minSize": 1,
+            "varience": 8,
+            "palette": [{"block": "minecraft:oak_fence"}]
+        },
+        {
+            "minHeight": 10,
+            "maxHeight": 120,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "maxSize": 3,
+            "minSize": 2,
+            "varience": 5,
+            "palette": [{"block": "minecraft:oak_fence"}]
+        },
+        {
+            "minHeight": 10,
+            "maxHeight": 120,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "maxSize": 3,
+            "minSize": 1,
+            "varience": 5,
+            "palette": [{"block": "minecraft:oak_fence"}]
+        }
+    ]
 }

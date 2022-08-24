@@ -11,7 +11,8 @@
         "fogColor": "#922B21",
         "waterFogColor": "#922B21",
         "foliageColor": "#922B21",
-        "grassColor": "#922B21"
+        "grassColor": "#922B21",
+        "skyColor": "#922B21"
     }],
     "rarity": 5,
     "layers": [{

@@ -2059,7 +2059,7 @@
             },
             {"type": "string"}
         ]},
-        "erzcaves": {"enum": []},
+        "erzcaves": {"enum": ["cave"]},
         "enum-snippet-fluid-bodies": {"enum": []},
         "obj-com-volmit-iris-engine-object-irisenchantment": {"anyOf": [
             {
