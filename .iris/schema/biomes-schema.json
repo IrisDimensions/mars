@@ -2279,7 +2279,7 @@
         "enum-snippet-object-limit": {"enum": []},
         "erzgenerators": {"enum": [
             "sands-cliffs",
-            "oasis",
+            "crater",
             "sands",
             "sands-red"
         ]},
@@ -5554,8 +5554,8 @@
         ]},
         "erzbiomes": {"enum": [
             "sands-cliffs",
-            "oasis",
             "sands-high",
+            "crater",
             "sands",
             "sands-red"
         ]},

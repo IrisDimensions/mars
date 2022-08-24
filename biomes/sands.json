@@ -4,7 +4,7 @@
     "vanillaDerivative": "END_HIGHLANDS",
     "customDerivitives": [{
         "category": "desert",
-        "id": "oasis",
+        "id": "crater",
         "waterColor": "#922B21",
         "downfallType": "snow",
         "temperature": -3,

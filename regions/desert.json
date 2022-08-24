@@ -3,7 +3,7 @@
     "landBiomes": [
         "sands",
         "sands-red",
-        "oasis"
+        "crater"
     ],
     "seaBiomes": ["sands"],
     "shoreBiomes": ["sands"]

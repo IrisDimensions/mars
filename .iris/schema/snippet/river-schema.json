@@ -1026,8 +1026,8 @@
         ]},
         "erzbiomes": {"enum": [
             "sands-cliffs",
-            "oasis",
             "sands-high",
+            "crater",
             "sands",
             "sands-red"
         ]},

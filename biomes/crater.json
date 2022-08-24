@@ -1,10 +1,10 @@
 {
-    "name": "Oasis",
+    "name": "Crater",
     "derivative": "END_HIGHLANDS",
     "vanillaDerivative": "END_HIGHLANDS",
     "customDerivitives": [{
         "category": "desert",
-        "id": "oasis",
+        "id": "crater",
         "waterColor": "#922B21",
         "downfallType": "snow",
         "temperature": -3,
@@ -22,7 +22,7 @@
         "maxHeight": 1,
         "minHeight": 1,
         "style": {
-            "style": "IRIS_DOUBLE",
+            "style": "NOWHERE_CUBIC",
             "fracture": {
                 "style": "STATIC",
                 "multiplier": 3
@@ -31,7 +31,7 @@
         }
     }],
     "generators": [{
-        "generator": "oasis",
+        "generator": "crater",
         "min": 15,
         "max": 25
     }]
