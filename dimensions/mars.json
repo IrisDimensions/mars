@@ -15,7 +15,6 @@
         "zoom": 3,
         "exponent": 1
     },
-    "landChance": 0.5,
     "deposits": [
         {
             "minHeight": 10,
