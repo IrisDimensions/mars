@@ -1,30 +1,35 @@
 {
-    "rarity": 1,
     "name": "Sands",
-    "derivative": "CRIMSON_FOREST",
-    "layers": [
-        {
-            "palette": [
-                {
-                    "block": "red_sand"
-                },
-                {
-                    "block": "orange_concrete_powder"
-                }
-            ],
-            "maxHeight": 2,
-            "minHeight": 1,
-            "style": {
-                "style": "STATIC",
-                "zoom": 0.0135
-            }
+    "derivative": "END_HIGHLANDS",
+    "vanillaDerivative": "END_HIGHLANDS",
+    "customDerivitives": [{
+        "category": "desert",
+        "id": "crater",
+        "waterColor": "#922B21",
+        "downfallType": "snow",
+        "temperature": -3,
+        "fogColor": "#922B21",
+        "waterFogColor": "#922B21",
+        "foliageColor": "#922B21",
+        "grassColor": "#922B21",
+        "skyColor": "#922B21"
+    }],
+    "rarity": 1,
+    "layers": [{
+        "palette": [
+            {"block": "minecraft:red_sand"},
+            {"block": "minecraft:orange_concrete_powder"}
+        ],
+        "maxHeight": 2,
+        "minHeight": 1,
+        "style": {
+            "style": "STATIC",
+            "zoom": 0.0135
         }
-    ],
-    "generators": [
-        {
-            "generator": "sands",
-            "min": 72,
-            "max": 95
-        }
-    ]
+    }],
+    "generators": [{
+        "generator": "sands",
+        "min": 72,
+        "max": 95
+    }]
 }

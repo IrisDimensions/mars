@@ -1,50 +1,50 @@
 {
-    "postProcessing": true,
-    "decorate": true,
-    "environment": "THE_END",
-    "regions": ["desert", "mountains"],
-    "rockPalette": {
-        "palette": [
-            {
-                "block": "smooth_red_sandstone"
-            }
-        ]
-    },
-    "caves": true,
-    "carving": true,
-    "overlayNoise": [
-        {
-            "generator": {
-                "style": "IRIS",
-                "exponent": 1.25,
-                "zoom": 1.25
-            },
-            "max": 12,
-            "min": 1
-        }
+    "name": "Mars",
+    "fluidHeight": 120,
+    "aggressiveBiomeReshuffle": true,
+    "regions": [
+        "desert",
+        "mountains"
     ],
-    "carveLayers": [
+    "bedrock": true,
+    "rockPalette": {"palette": [{"block": "minecraft:smooth_red_sandstone"}]},
+    "useMantle": true,
+    "decorate": true,
+    "continentalStyle": {
+        "style": "NOWHERE_CELLULAR",
+        "zoom": 3,
+        "exponent": 1
+    },
+    "deposits": [
         {
-            "maxHeight": 280,
-            "minHeight": 33,
-            "threshold": 0.17,
-            "style": {
-                "style": "FRACTAL_BILLOW_IRIS",
-                "zoom": 2
-            }
+            "minHeight": 10,
+            "maxHeight": 200,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "maxSize": 4,
+            "minSize": 1,
+            "varience": 8,
+            "palette": [{"block": "minecraft:oak_fence"}]
         },
         {
-            "maxHeight": 100,
-            "minHeight": -19,
-            "threshold": 0.15,
-            "style": {
-                "style": "FRACTAL_BILLOW_IRIS",
-                "zoom": 1.97
-            }
+            "minHeight": 10,
+            "maxHeight": 120,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "maxSize": 3,
+            "minSize": 2,
+            "varience": 5,
+            "palette": [{"block": "minecraft:oak_fence"}]
+        },
+        {
+            "minHeight": 10,
+            "maxHeight": 120,
+            "maxPerChunk": 2,
+            "minPerChunk": 1,
+            "maxSize": 3,
+            "minSize": 1,
+            "varience": 5,
+            "palette": [{"block": "minecraft:oak_fence"}]
         }
-    ],
-    "name": "Mars",
-    "fluidHeight": 0,
-    "placeObjects": true,
-    "version": 1
+    ]
 }

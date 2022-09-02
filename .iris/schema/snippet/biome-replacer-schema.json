@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://volmit.com/iris-schema/irismodbiomereplacer.json",
+    "anyOf": [
+        {
+            "description": "A biome replacer",
+            "type": "object",
+            "properties": {
+                "find": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {"$ref": "#/definitions/erzbiomes"},
+                    "description": "find\nA list of biomes to find\n   \nList<Biome>\n\n    \n* Default Value is an empty list\n* At least one entry must be defined, or just remove this list.\nMust be a valid Biome (use ctrl+space for auto complete!)"
+                },
+                "replace": {
+                    "type": "string",
+                    "$ref": "#/definitions/erzbiomes",
+                    "description": "replace\nA biome to replace it with\n   \nIris Biome\n\n    \n* Default Value is \nMust be a valid biomes (use ctrl+space for auto complete!)"
+                }
+            }
+        },
+        {"type": "string"}
+    ],
+    "definitions": {"erzbiomes": {"enum": [
+        "sands-cliffs",
+        "sands-high",
+        "crater",
+        "sands",
+        "sands-red"
+    ]}}
+}

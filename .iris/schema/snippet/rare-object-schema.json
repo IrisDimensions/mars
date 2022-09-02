@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://volmit.com/iris-schema/irisrareobject.json",
+    "anyOf": [
+        {
+            "description": "Represents a structure tile",
+            "type": "object",
+            "properties": {
+                "rarity": {
+                    "type": "integer",
+                    "minimum": 1,
+                    "description": "rarity\nThe rarity is 1 in X\n   \nInteger\n\n    \n* Default Value is 1\n* Minimum allowed is 1"
+                },
+                "object": {
+                    "type": "string",
+                    "$ref": "#/definitions/erzobjects",
+                    "description": "object\nThe object to place if rarity check passed\n   \nIris Object\n\n    \n* Default Value is \nMust be a valid objects (use ctrl+space for auto complete!)"
+                }
+            }
+        },
+        {"type": "string"}
+    ],
+    "definitions": {"erzobjects": {"enum": []}}
+}

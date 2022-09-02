@@ -1,21 +1,10 @@
 {
     "name": "Martian Desert",
     "landBiomes": [
-        "sands"
+        "sands",
+        "sands-red",
+        "crater"
     ],
-    "seaBiomes": [
-        "sands"
-    ],
-    "shoreBiomes": [
-        "sands"
-    ],
-    "spotBiomes": [
-        {
-            "biome": "oasis",
-            "rarity": 350,
-            "scale": 0.6,
-            "shuffle": 0,
-            "type": "LAND"
-        }
-    ]
+    "seaBiomes": ["sands"],
+    "shoreBiomes": ["sands"]
 }

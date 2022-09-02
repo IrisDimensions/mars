@@ -1,0 +1,36 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://volmit.com/iris-schema/irisbiomegeneratorlink.json",
+    "anyOf": [
+        {
+            "description": "This represents a link to a generator for a biome",
+            "type": "object",
+            "properties": {
+                "generator": {
+                    "type": "string",
+                    "$ref": "#/definitions/erzgenerators",
+                    "description": "generator\nThe generator id\n   \nIris Generator\n\n    \n* Default Value is default\nMust be a valid generators (use ctrl+space for auto complete!)"
+                },
+                "min": {
+                    "type": "integer",
+                    "minimum": -2032,
+                    "maximum": 2032,
+                    "description": "min\nThe min block value (value + fluidHeight)\n   \nInteger\n\n    \n* Default Value is 0\n* Minimum allowed is -2032\n* Maximum allowed is 2032"
+                },
+                "max": {
+                    "type": "integer",
+                    "minimum": -2032,
+                    "maximum": 2032,
+                    "description": "max\nThe max block value (value + fluidHeight)\n   \nInteger\n\n    \n* Default Value is 0\n* Minimum allowed is -2032\n* Maximum allowed is 2032"
+                }
+            }
+        },
+        {"type": "string"}
+    ],
+    "definitions": {"erzgenerators": {"enum": [
+        "sands-cliffs",
+        "crater",
+        "sands",
+        "sands-red"
+    ]}}
+}

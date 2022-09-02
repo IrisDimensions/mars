@@ -1,12 +1,12 @@
 {
     "interpolator": {
-        "horizontalScale": 5,
+        "horizontalScale": 9,
         "function": "BILINEAR_STARCAST_9"
     },
-    "seed": 5551,
+    "seed": 55512,
     "composite": [{
         "style": {
-            "style": "FRACTAL_WATER",
+            "style": "NOWHERE",
             "zoom": 4
         },
         "seed": 235
